@@ -1,0 +1,99 @@
+*{
+    padding: 0px 5px;
+}
+h1,li,.top{
+    text-transform: uppercase;
+}
+h1{
+    font-size: 5em;
+    margin: 0px;
+    width: auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+
+}
+ul li{
+    justify-content: space-around;
+    font-family:"rockwell",sans-serif;
+    padding: 0px;
+    align-items: flex-end;
+
+    }
+nav{
+    height: auto;
+    
+}
+.intro{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0px;
+    border-bottom: solid 1px gray;
+
+
+}
+.top{
+    margin-right: auto;
+}
+.content{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 3em ;
+    margin-left: 25vw;
+
+}
+footer{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 35vw;
+    margin-top: 20vh;
+}
+button{
+    color: aqua;
+    background-color: black;
+    padding: 3px;
+    height: 40px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: purple;
+}
+form{
+    background-color: bisque;
+    width: 200px;
+    max-height: auto;
+}
+.blogs a:hover h3 {
+    color: crimson;
+}
+/* details styles */
+.details {
+    position: relative;
+}
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 8px;
+}
+.delete:hover {
+    cursor: pointer;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, .2);
+}
+#body,#title,#snippet{
+    margin-top: 5px;
+ height: 50px;
+}
